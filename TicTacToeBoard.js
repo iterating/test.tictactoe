@@ -66,8 +66,6 @@ class Board {
     return this.p1;
   }
 
-  // Private Methods
-
   updateWinner() {
     const rowWin = this.getFullRows();
     if (rowWin) this.wins.push(rowWin);
